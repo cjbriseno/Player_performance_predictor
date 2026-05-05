@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# MacOS
+.DS_Store
+
+# Data (do not want large datasets)
+data/raw/
+data/processed/
+
+# Models (can be large)
+models/
+
+# 
