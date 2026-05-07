@@ -18,4 +18,4 @@ print(df.head())
 print("\nSaving to CSV...")
 save_path = "../data/raw/lebron_2023_24_gamelog.csv"
 df.to_csv(save_path, index = False)
-print(f"Saved to {os.path.abspath(save_path)}")
+print(f"\nSaved to {os.path.abspath(save_path)}")
